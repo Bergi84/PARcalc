@@ -51,6 +51,13 @@ def calcUmolPerLm(spdFileName):
     return molPerLm
 
 
+k_CREE_J2835_2700K_95CRI = calcUmolPerLm("CREE_J2835_2700K_95CRI.csv")
+k_CREE_J2835_3000K_95CRI = calcUmolPerLm("CREE_J2835_3000K_95CRI.csv")
+k_CREE_J2835_3500K_95CRI = calcUmolPerLm("CREE_J2835_3500K_95CRI.csv")
+k_CREE_J2835_4000K_95CRI = calcUmolPerLm("CREE_J2835_4000K_95CRI.csv")
+k_CREE_J2835_5000K_95CRI = calcUmolPerLm("CREE_J2835_5000K_95CRI.csv")
+k_CREE_J2835_6500K_95CRI = calcUmolPerLm("CREE_J2835_6500K_95CRI.csv")
+
 k_CREE_J2835_2200K_90CRI = calcUmolPerLm("CREE_J2835_2200K_90CRI.csv")
 k_CREE_J2835_2700K_90CRI = calcUmolPerLm("CREE_J2835_2700K_90CRI.csv")
 k_CREE_J2835_3000K_90CRI = calcUmolPerLm("CREE_J2835_3000K_90CRI.csv")
@@ -76,6 +83,13 @@ k_CREE_J2835_5000K_70CRI = calcUmolPerLm("CREE_J2835_5000K_70CRI.csv")
 k_CREE_J2835_5700K_70CRI = calcUmolPerLm("CREE_J2835_5700K_70CRI.csv")
 k_CREE_J2835_6500K_70CRI = calcUmolPerLm("CREE_J2835_6500K_70CRI.csv")
 
+print("2700K, 95CRI: %.4f" % (k_CREE_J2835_2700K_95CRI*10**6), "µmol/(Lm*s)")
+print("3000K, 95CRI: %.4f" % (k_CREE_J2835_3000K_95CRI*10**6), "µmol/(Lm*s)")
+print("3500K, 95CRI: %.4f" % (k_CREE_J2835_3500K_95CRI*10**6), "µmol/(Lm*s)")
+print("4000K, 95CRI: %.4f" % (k_CREE_J2835_4000K_95CRI*10**6), "µmol/(Lm*s)")
+print("5000K, 95CRI: %.4f" % (k_CREE_J2835_5000K_95CRI*10**6), "µmol/(Lm*s)")
+print("6500K, 95CRI: %.4f" % (k_CREE_J2835_6500K_95CRI*10**6), "µmol/(Lm*s)\n")
+
 print("2200K, 90CRI: %.4f" % (k_CREE_J2835_2200K_90CRI*10**6), "µmol/(Lm*s)")
 print("2700K, 90CRI: %.4f" % (k_CREE_J2835_2700K_90CRI*10**6), "µmol/(Lm*s)")
 print("3000K, 90CRI: %.4f" % (k_CREE_J2835_3000K_90CRI*10**6), "µmol/(Lm*s)")
@@ -83,7 +97,7 @@ print("3500K, 90CRI: %.4f" % (k_CREE_J2835_3500K_90CRI*10**6), "µmol/(Lm*s)")
 print("4000K, 90CRI: %.4f" % (k_CREE_J2835_4000K_90CRI*10**6), "µmol/(Lm*s)")
 print("5000K, 90CRI: %.4f" % (k_CREE_J2835_5000K_90CRI*10**6), "µmol/(Lm*s)")
 print("5700K, 90CRI: %.4f" % (k_CREE_J2835_5700K_90CRI*10**6), "µmol/(Lm*s)")
-print("6500K, 90CRI: %.4f" % (k_CREE_J2835_6500K_90CRI*10**6), "µmol/(Lm*s)")
+print("6500K, 90CRI: %.4f" % (k_CREE_J2835_6500K_90CRI*10**6), "µmol/(Lm*s)\n")
 
 print("2200K, 80CRI: %.4f" % (k_CREE_J2835_2200K_80CRI*10**6), "µmol/(Lm*s)")
 print("2700K, 80CRI: %.4f" % (k_CREE_J2835_2700K_80CRI*10**6), "µmol/(Lm*s)")
@@ -92,7 +106,7 @@ print("3500K, 80CRI: %.4f" % (k_CREE_J2835_3500K_80CRI*10**6), "µmol/(Lm*s)")
 print("4000K, 80CRI: %.4f" % (k_CREE_J2835_4000K_80CRI*10**6), "µmol/(Lm*s)")
 print("5000K, 80CRI: %.4f" % (k_CREE_J2835_5000K_80CRI*10**6), "µmol/(Lm*s)")
 print("5700K, 80CRI: %.4f" % (k_CREE_J2835_5700K_80CRI*10**6), "µmol/(Lm*s)")
-print("6500K, 80CRI: %.4f" % (k_CREE_J2835_6500K_80CRI*10**6), "µmol/(Lm*s)")
+print("6500K, 80CRI: %.4f" % (k_CREE_J2835_6500K_80CRI*10**6), "µmol/(Lm*s)\n")
 
 print("2700K, 70CRI: %.4f" % (k_CREE_J2835_2700K_70CRI*10**6), "µmol/(Lm*s)")
 print("3000K, 70CRI: %.4f" % (k_CREE_J2835_3000K_70CRI*10**6), "µmol/(Lm*s)")
